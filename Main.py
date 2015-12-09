@@ -24,5 +24,5 @@ print 'for line in AsciiArt: print line'
 print 'Copy both the list and the for loop that are printed in the two lines above this one into your program.'
 print 'Place the list wherever you want then place the loop wherever you want the ASCII to be printed'
     
-while True:    
-
+raw_input() 
+    
