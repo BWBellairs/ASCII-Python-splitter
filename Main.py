@@ -21,7 +21,8 @@ print ASCII
 
 print 'for line in AsciiArt: print line'
 
-print 'Copy that into your program and use a for loop to print each item in the list on a new line. Your ASCII will be printed correctly.'
+print 'Copy both the list and the for loop that are printed in the two lines above this one into your program.'
+print 'Place the list wherever you want then place the loop wherever you want the ASCII to be printed'
     
     
 
