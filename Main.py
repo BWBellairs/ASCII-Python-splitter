@@ -16,7 +16,10 @@ def ASCII_Input():
 print 'Please enter the entire ASCII:'
 ASCII = list(ASCII_Input())
 
+print 'AsciiArt = ',
 print ASCII
+
+print 'for line in AsciiArt: print line'
 
 print 'Copy that into your program and use a for loop to print each item in the list on a new line. Your ASCII will be printed correctly.'
     
