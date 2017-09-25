@@ -1,4 +1,3 @@
-from __future__ import print_function
 import sys
 '''
 Created on 9 Dec 2015
@@ -6,24 +5,35 @@ Created on 9 Dec 2015
 @author: Harry :)
 '''
 
-if sys.version_info[0] == '3':
+if sys.version_info[0] == 3:
+
     raw_input = input
 
 def ASCII_Input():
+
     try:
+
         while True:
+
             data=raw_input()
+
             if not data:
+
                 break
+
             yield data
+
+            print(data)
+            
     except KeyboardInterrupt:
+
         return
 
 print('Please enter the entire ASCII:')
-ASCII = list(ASCII_Input())
+#ASCII = list(ASCII_Input())
 
 print('AsciiArt = ', end=" ")
-print(ASCII)
+#print(ASCII)
 
 print('for line in AsciiArt: print line')
 
