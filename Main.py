@@ -1,3 +1,4 @@
+from __future__ import print_function
 import sys
 '''
 Created on 9 Dec 2015
@@ -29,11 +30,13 @@ def ASCII_Input():
 
         return
 
+print(sys.argv)
+
 print('Please enter the entire ASCII:')
-#ASCII = list(ASCII_Input())
+ASCII = list(ASCII_Input())
 
 print('AsciiArt = ', end=" ")
-#print(ASCII)
+print(ASCII)
 
 print('for line in AsciiArt: print line')
 
